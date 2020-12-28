@@ -64,7 +64,7 @@ function formatDate(timestamp) {
         <h4>
           ${formatHours(forecast.dt * 1000)}
         </h4>
-        <img
+        <img 
           src="http://openweathermap.org/img/wn/${
             forecast.weather[0].icon
           }@2x.png"
